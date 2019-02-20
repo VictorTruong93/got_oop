@@ -16,3 +16,8 @@ arya.inventory.append('sword')
 arya.inventory.append('mask')
 
 print(len(arya.inventory))
+
+# arya should have  a`greet` method
+# when called, it should return:
+# "Hello, I am Arya Stark. I am awesome."
+print(arya.greet())
