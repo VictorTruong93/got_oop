@@ -37,3 +37,6 @@ class Character():
 # Character is the superclass of Hero
 class Hero(Character):
     pass
+
+class Monster(Character):
+    pass
