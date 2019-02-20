@@ -19,6 +19,13 @@ class Character():
 # `someone=None` is default argument
 # `None` is equivalent to `Null` in other languages
     def greet(self, someone = None):
+        # We assume that `someone` argument has a `.name` property
+        # this is an Object-Oriented Programming principle
+        # polymorphism
+        # if it walks ,talks, acts like a duck. it is a duck
+        # ^ "Duck Typing" in python
+
+
         if someone is not None:
             return "Hello, %s I am %s. I am awesome. " % (someone.name, self.name)
         else:
