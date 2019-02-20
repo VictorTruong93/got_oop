@@ -29,7 +29,11 @@ class Character():
             return "Hello, %s I am %s. I am awesome. " % (someone.name, self.name)
         else:
             return "Hello, I am %s. I am awesome. " % (self.name,)
-
+    def attack(self, someone= None):
+        if someone is Monster(Character):
+            return "%s has slain %s" % (self.name, someone.name)
+        else:
+            return "%s refuses to attack and can only attack Monsters" % (self.name)
 
 # Hero is a kind of Character
 # Hero is still subclass of Character
@@ -39,4 +43,5 @@ class Hero(Character):
     pass
 
 class Monster(Character):
-    pass
+    __init__(self):
+        pass

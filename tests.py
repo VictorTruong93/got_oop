@@ -36,3 +36,7 @@ ramsay_snow = Monster("The Bastard of Bolton", "ramsay_snow.png")
 # Hero should be able to greet Character
 print(bronn.greet(arya))
 print(jon.greet(bronn))
+print(bronn.attack(ramsay_snow))
+
+# 
+walker = Monster()
