@@ -24,8 +24,7 @@ class Character():
         # polymorphism
         # if it walks ,talks, acts like a duck. it is a duck
         # ^ "Duck Typing" in python
-
-
+        
         if someone is not None:
             return "Hello, %s I am %s. I am awesome. " % (someone.name, self.name)
         else:
