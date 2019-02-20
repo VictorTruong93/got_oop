@@ -43,5 +43,8 @@ class Hero(Character):
     pass
 
 class Monster(Character):
-    __init__(self):
+    def __init__(self):
         pass
+    def greet(self):
+        return "ugggh"
+

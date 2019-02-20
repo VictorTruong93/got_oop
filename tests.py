@@ -40,3 +40,5 @@ print(bronn.attack(ramsay_snow))
 
 # 
 walker = Monster()
+# expects to greet "ugggh"
+print(walker.greet())
